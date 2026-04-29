@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Clean Trades ESOP Holdings — Sell Your Business&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="description" content="Clean Trades ESOP Holdings acquires energy trades businesses from retiring owners and converts them into 100% employee-owned companies." /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--forest: #1A3A2E; --teal: #2A6B56; --teal2: #3D8B6E;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--mint: #E8F3EE; --gold: #C8972A; --ink: #1C1C1C;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--muted: #4E5E58; --white: #FFFFFF; --off: #F7F9F8; --border: #C8DAD3;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>html { scroll-behavior: smooth; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body { font-family: 'DM Sans', sans-serif; color: var(--ink); background: var(--white); overflow-x: hidden; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: fixed; top: 0; left: 0; right: 0; z-index: 100;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 18px 48px; display: flex; align-items: center; justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: rgba(26,58,46,0.96); backdrop-filter: blur(8px);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid rgba(255,255,255,0.08);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-brand { display: flex; flex-direction: column; gap: 1px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-brand span:first-child { font-family: 'Playfair Display', serif; font-size: 17px; color: var(--white); letter-spacing: 0.02em; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-brand span:last-child { font-size: 11px; color: rgba(255,255,255,0.5); letter-spacing: 0.1em; text-transform: uppercase; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-cta {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 13px; font-weight: 500; color: var(--forest); background: var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: none; border-radius: 4px; padding: 9px 20px; cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none; transition: opacity 0.15s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-cta:hover { opacity: 0.85; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>min-height: 100vh; background: var(--forest);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex; align-items: center; padding: 120px 48px 80px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative; overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-orb {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute; top: -120px; right: -120px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 480px; height: 480px; border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 80px solid rgba(255,255,255,0.04); pointer-events: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-orb2 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute; bottom: -60px; left: 30%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 300px; height: 300px; border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 40px solid rgba(200,151,42,0.08); pointer-events: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-inner { max-width: 1100px; margin: 0 auto; width: 100%; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-eyebrow {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex; align-items: center; gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: rgba(255,255,255,0.45); margin-bottom: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-eyebrow::before { content: ''; width: 28px; height: 1px; background: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero h1 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Playfair Display', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: clamp(48px, 7vw, 88px); font-weight: 400;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.08; color: var(--white); margin-bottom: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero h1 em { font-style: italic; color: rgba(255,255,255,0.55); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-sub {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px; line-height: 1.7; color: rgba(255,255,255,0.65);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 580px; margin-bottom: 56px; font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-stats {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid; grid-template-columns: repeat(4, 1fr);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 1px; background: rgba(255,255,255,0.08);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.stat { background: rgba(255,255,255,0.04); padding: 28px 24px; transition: background 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.stat:hover { background: rgba(255,255,255,0.08); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.stat-num { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700; color: var(--gold); line-height: 1; margin-bottom: 8px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.stat-label { font-size: 12px; color: rgba(255,255,255,0.45); line-height: 1.5; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>section { padding: 100px 48px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-inner { max-width: 1100px; margin: 0 auto; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-tag {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--teal2); margin-bottom: 48px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex; align-items: center; gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-tag::after { content: ''; flex: 1; height: 1px; background: var(--border); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.acquire { background: var(--off); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.acquire-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.acquire-card { background: var(--white); border: 1px solid var(--border); border-radius: 12px; padding: 40px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.acquire-card h3 { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 400; color: var(--forest); margin-bottom: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.acquire-card p { font-size: 15px; line-height: 1.75; color: var(--muted); margin-bottom: 28px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.tags { display: flex; flex-wrap: wrap; gap: 8px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.tag { font-size: 12px; font-weight: 500; border: 1px solid var(--border); border-radius: 20px; padding: 5px 14px; color: var(--teal); background: var(--mint); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.steps { background: var(--white); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.steps-list { display: flex; flex-direction: column; gap: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.step {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid; grid-template-columns: 72px 1fr; gap: 32px; align-items: flex-start;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 40px 0; border-bottom: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.step.visible { opacity: 1; transform: translateY(0); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.step:last-child { border-bottom: none; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.step-num {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 52px; height: 52px; border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--mint); border: 1.5px solid var(--teal2);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex; align-items: center; justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Playfair Display', serif; font-size: 20px; color: var(--forest); font-weight: 700; flex-shrink: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.step-content h4 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 400; color: var(--forest); margin-bottom: 12px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.step-content p { font-size: 15px; line-height: 1.75; color: var(--muted); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.structure { background: var(--forest); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.structure .section-tag { color: rgba(255,255,255,0.4); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.structure .section-tag::after { background: rgba(255,255,255,0.1); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.structure-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.structure-diagram { display: flex; flex-direction: column; align-items: center; gap: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.s-node {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 8px; padding: 14px 28px; font-size: 14px; font-weight: 500; color: var(--white); text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.s-node span { display: block; font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 3px; font-weight: 300; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.s-line { width: 1px; height: 28px; background: rgba(255,255,255,0.15); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.s-row { display: flex; gap: 12px; align-items: center; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.s-row .s-node { font-size: 12px; padding: 10px 16px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.s-row .s-node span { font-size: 10px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.deal-table { display: flex; flex-direction: column; gap: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.deal-row { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.08); font-size: 14px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.deal-row:last-child { border-bottom: none; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.deal-label { color: rgba(255,255,255,0.5); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.deal-val { color: var(--white); font-weight: 500; text-align: right; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.deal-val.gold { color: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.structure-titles { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 400; color: rgba(255,255,255,0.7); margin-bottom: 28px; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.benefits { background: var(--off); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.benefits-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.benefit-card {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--white); border: 1px solid var(--border); border-radius: 12px; padding: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-top: 3px solid var(--teal2); transition: transform 0.2s, box-shadow 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.benefit-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(26,58,46,0.08); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.benefit-icon { width: 40px; height: 40px; border-radius: 8px; background: var(--mint); display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.benefit-card h4 { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 400; color: var(--forest); margin-bottom: 12px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.benefit-card p { font-size: 14px; line-height: 1.7; color: var(--muted); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.cta-section { background: var(--white); border-top: 1px solid var(--border); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.cta-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 48px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.cta-inner h2 { font-family: 'Playfair Display', serif; font-size: 40px; font-weight: 400; color: var(--forest); line-height: 1.2; max-width: 480px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.cta-inner h2 em { font-style: italic; color: var(--teal2); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.cta-right { flex-shrink: 0; text-align: right; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.cta-right p { font-size: 15px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn-primary {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-flex; align-items: center; gap: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--forest); color: var(--white); font-family: 'DM Sans', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 15px; font-weight: 500; border: none; border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 16px 32px; cursor: pointer; text-decoration: none; transition: background 0.15s, transform 0.15s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn-primary:hover { background: var(--teal); transform: translateY(-1px); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn-primary svg { transition: transform 0.15s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn-primary:hover svg { transform: translateX(3px); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>footer { background: var(--forest); padding: 32px 48px; display: flex; align-items: center; justify-content: space-between; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>footer p { font-size: 12px; color: rgba(255,255,255,0.35); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@keyframes fadeUp { from { opacity: 0; transform: translateY(32px); } to { opacity: 1; transform: translateY(0); } }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-eyebrow { animation: fadeUp 0.6s ease both; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero h1<span class="Apple-converted-space">      </span>{ animation: fadeUp 0.6s 0.1s ease both; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-sub <span class="Apple-converted-space">    </span>{ animation: fadeUp 0.6s 0.2s ease both; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero-stats <span class="Apple-converted-space">  </span>{ animation: fadeUp 0.6s 0.3s ease both; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 900px) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>nav { padding: 16px 24px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>section { padding: 72px 24px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.hero { padding: 100px 24px 64px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.hero-stats { grid-template-columns: repeat(2,1fr); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.acquire-grid { grid-template-columns: 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.structure-grid { grid-template-columns: 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.benefits-grid { grid-template-columns: 1fr 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.cta-inner { flex-direction: column; align-items: flex-start; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.cta-right { text-align: left; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>footer { flex-direction: column; gap: 8px; text-align: center; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 600px) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.hero-stats { grid-template-columns: repeat(2,1fr); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.benefits-grid { grid-template-columns: 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.step { grid-template-columns: 52px 1fr; gap: 16px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="nav-brand"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span&gt;Clean Trades ESOP Holdings&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span&gt;LLN Partners&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#contact" class="nav-cta"&gt;Start a conversation&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-orb"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-orb2"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="hero-eyebrow"&gt;Clean Trades ESOP Holdings · LLN Partners&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Sell your business.&lt;br&gt;&lt;em&gt;Empower your workers.&lt;/em&gt;&lt;br&gt;Preserve your legacy.&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="hero-sub"&gt;Clean Trades ESOP Holdings acquires energy trades businesses from retiring owners and converts them into 100% employee-owned companies — giving workers a stake in the business they built, and giving you a fair, tax-advantaged exit.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="hero-stats"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat"&gt;&lt;div class="stat-num"&gt;$65B&lt;/div&gt;&lt;div class="stat-label"&gt;U.S. energy-as-a-service market by 2035&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat"&gt;&lt;div class="stat-num"&gt;0%&lt;/div&gt;&lt;div class="stat-label"&gt;Federal income tax on S-Corp ESOP earnings&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat"&gt;&lt;div class="stat-num"&gt;2.6M&lt;/div&gt;&lt;div class="stat-label"&gt;Business owners retiring by 2030&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat"&gt;&lt;div class="stat-num"&gt;8–12&lt;/div&gt;&lt;div class="stat-label"&gt;Portfolio companies targeted in 5 years&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="acquire"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="section-tag"&gt;Who we acquire&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="acquire-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="acquire-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3&gt;The right business&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;We acquire established energy trades companies — energy auditors, weatherization contractors, HVAC and heat pump installers, insulation crews, and energy services firms — in the Mid-Atlantic and Northeast. Ideal candidates are owner-operated, cash-flow-positive, and ready for a succession plan.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tags"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="tag"&gt;Energy auditing&lt;/span&gt;&lt;span class="tag"&gt;Weatherization&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="tag"&gt;HVAC / heat pumps&lt;/span&gt;&lt;span class="tag"&gt;Insulation&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="tag"&gt;Energy services&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="acquire-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3&gt;The right owner&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;You've built something real. You want a fair price, but you also care about what happens to your team after you leave. You're not looking for a private equity rollup that will strip the business. You want your workers to benefit — and your legacy to last.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tags"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="tag"&gt;Retiring founder&lt;/span&gt;&lt;span class="tag"&gt;Mission-aligned&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="tag"&gt;Stable cash flow&lt;/span&gt;&lt;span class="tag"&gt;Established team&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="steps"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="section-tag"&gt;How it works&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="steps-list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="step-num"&gt;1&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="step-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;We acquire your business at fair market value&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Clean Trades purchases your company using SBA 7(a) ESOP financing, a seller note, and a small equity injection. You receive the majority of your proceeds in cash at closing — no long earn-outs or contingent payments.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="step-num"&gt;2&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="step-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;Your company converts to 100% employee ownership&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;An ESOP trust is established to hold shares on behalf of your workers. Employees accumulate ownership over time, without any out-of-pocket investment. Your team becomes the new owners.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="step-num"&gt;3&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="step-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;Your business joins the Clean Trades portfolio&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Your company retains its local brand, management, and culture — while gaining shared back-office services, procurement leverage, access to IRA rebate programs, and capital for growth.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="step-num"&gt;4&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="step-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;Debt is paid down tax-free — workers build wealth&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;As an S-Corp ESOP, the business pays zero federal income tax. That cash flow accelerates debt repayment and funds employee retirement accounts — a compounding benefit for your workers and the business.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="structure"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="section-tag"&gt;The structure&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="structure-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="structure-titles"&gt;The holding structure&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="structure-diagram"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="s-node"&gt;Clean Trades ESOP Holdings&lt;span&gt;S-Corp ESOP parent · shared services&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="s-line"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="s-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="s-node"&gt;Your company&lt;span&gt;ESOP subsidiary&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="s-node"&gt;Next acquisition&lt;span&gt;ESOP subsidiary&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="s-node"&gt;Portfolio co. 3&lt;span&gt;ESOP subsidiary&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="s-line"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="s-node" style="font-size:12px;opacity:0.6;border-style:dashed;"&gt;Worker-owners · ESOP trust accounts&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="structure-titles"&gt;Typical deal structure&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="deal-table"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="deal-row"&gt;&lt;span class="deal-label"&gt;Purchase price&lt;/span&gt;&lt;span class="deal-val"&gt;Fair market value&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="deal-row"&gt;&lt;span class="deal-label"&gt;SBA 7(a) ESOP loan&lt;/span&gt;&lt;span class="deal-val"&gt;~70% of purchase price&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="deal-row"&gt;&lt;span class="deal-label"&gt;Seller note&lt;/span&gt;&lt;span class="deal-val"&gt;~30% · refinanced in 3 yrs&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="deal-row"&gt;&lt;span class="deal-label"&gt;Buyer equity injection&lt;/span&gt;&lt;span class="deal-val"&gt;~3%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="deal-row"&gt;&lt;span class="deal-label"&gt;Federal income tax post-close&lt;/span&gt;&lt;span class="deal-val gold"&gt;0% (S-Corp ESOP)&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="deal-row"&gt;&lt;span class="deal-label"&gt;Seller tax treatment&lt;/span&gt;&lt;span class="deal-val"&gt;1042 rollover eligible&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="deal-row"&gt;&lt;span class="deal-label"&gt;Working capital facility&lt;/span&gt;&lt;span class="deal-val"&gt;Included at close&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="benefits"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="section-tag"&gt;What you gain as the seller&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="benefits-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="benefit-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="benefit-icon"&gt;&lt;svg width="18" height="18" fill="none" viewBox="0 0 18 18"&gt;&lt;rect x="2" y="7" width="14" height="9" rx="2" stroke="#2A6B56" stroke-width="1.5"/&gt;&lt;path d="M6 7V5a3 3 0 016 0v2" stroke="#2A6B56" stroke-width="1.5" stroke-linecap="round"/&gt;&lt;/svg&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4&gt;Fair price, mostly cash&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;You receive fair market value with a large cash portion at close — no complicated earnouts tied to future performance you won't control.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="benefit-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="benefit-icon"&gt;&lt;svg width="18" height="18" fill="none" viewBox="0 0 18 18"&gt;&lt;path d="M9 2v14M5 6l4-4 4 4" stroke="#2A6B56" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/&gt;&lt;/svg&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4&gt;Tax-advantaged exit&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Selling to an ESOP may qualify you for the Section 1042 capital gains rollover, deferring — or eliminating — federal tax on your proceeds.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="benefit-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="benefit-icon"&gt;&lt;svg width="18" height="18" fill="none" viewBox="0 0 18 18"&gt;&lt;circle cx="9" cy="7" r="3.5" stroke="#2A6B56" stroke-width="1.5"/&gt;&lt;path d="M2 16c0-3 3-5.5 7-5.5s7 2.5 7 5.5" stroke="#2A6B56" stroke-width="1.5" stroke-linecap="round"/&gt;&lt;/svg&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4&gt;Your team is taken care of&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Your workers become the new owners. They keep their jobs, their culture, and gain equity they can retire on — without investing a dime of their own money.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="benefit-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="benefit-icon"&gt;&lt;svg width="18" height="18" fill="none" viewBox="0 0 18 18"&gt;&lt;rect x="2" y="2" width="6" height="6" rx="1" stroke="#2A6B56" stroke-width="1.5"/&gt;&lt;rect x="10" y="2" width="6" height="6" rx="1" stroke="#2A6B56" stroke-width="1.5"/&gt;&lt;rect x="2" y="10" width="6" height="6" rx="1" stroke="#2A6B56" stroke-width="1.5"/&gt;&lt;rect x="10" y="10" width="6" height="6" rx="1" stroke="#2A6B56" stroke-width="1.5"/&gt;&lt;/svg&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4&gt;Legacy preserved&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Your business stays independent — local brand, local management, local relationships. It doesn't get absorbed into a corporate entity or sold again in five years.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="benefit-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="benefit-icon"&gt;&lt;svg width="18" height="18" fill="none" viewBox="0 0 18 18"&gt;&lt;path d="M3 9h12M9 3v12" stroke="#2A6B56" stroke-width="1.5" stroke-linecap="round"/&gt;&lt;/svg&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4&gt;Growth resources&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Your business gains access to shared services, IRA rebate programs, SBA capital, and a network of energy trades businesses it couldn't access alone.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="benefit-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="benefit-icon"&gt;&lt;svg width="18" height="18" fill="none" viewBox="0 0 18 18"&gt;&lt;path d="M3 16L9 2l6 14H3z" stroke="#2A6B56" stroke-width="1.5" stroke-linejoin="round"/&gt;&lt;/svg&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4&gt;Mission-aligned buyer&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;We're not a rollup. We're building a worker-owned coalition for the energy transition — your company advances both financial and social goals.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="cta-section" id="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="cta-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;Is your business&lt;br&gt;&lt;em&gt;a fit?&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="cta-right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;If you're an energy trades business owner&lt;br&gt;thinking about succession, let's talk.&lt;br&gt;Conversations are confidential and no-obligation.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="mailto:nenhayoung@gmail.com?subject=Clean Trades — Business Inquiry" class="btn-primary"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>Start a conversation</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;svg width="16" height="16" fill="none" viewBox="0 0 16 16"&gt;&lt;path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Clean Trades ESOP Holdings · LLN Partners&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;ESOP structure governed under ERISA · Mid-Atlantic &amp; Northeast focus&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const steps = document.querySelectorAll('.step');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const observer = new IntersectionObserver((entries) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>entries.forEach((e, i) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (e.isIntersecting) {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>setTimeout(() =&gt; e.target.classList.add('visible'), i * 100);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}, { threshold: 0.15 });</p>
+<p class="p1"><span class="Apple-converted-space">    </span>steps.forEach(s =&gt; observer.observe(s));</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
